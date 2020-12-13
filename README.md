@@ -1,64 +1,76 @@
-# budget-tracker
 
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# 🤑 Balance Pro 2.0 :chart_with_upwards_trend:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
+__Balance Pro 2.0__ is a progressive web app (PWA) that gives frequent travelers and everyday commuters an opportunity to track their withdrawals and deposits with or without an Internet connection. Whether you are on a bus, in the tunnel or on a plane, now your finances remain easily accessible to you at anytime.
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Tech_Stack!](#Tech_Stack!)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Test](#Test)
+* [Questions](#Questions)
 
-Offline Functionality:
+## Installation
 
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+1. You can use the app directly in the browser through the deployed Heroku link: https://budgets-tracker.herokuapp.com/
+2. You can click the icon in the address bar to enjoy the functionalities of the app with a standalone app on your mobile device. 
+3. You can download this repository to your computer and open the app with command __node server__ or __npm start__
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Usage
+Your input fields are located on the top of the page. You can type the transaction name and amount. Click the " + Add Funds" button to add your funds or click the " - Subtract Funds" to withdraw money. The balance of your account will always be displayed on the chart below, whether you are online or offline. For a preview, see the screenshots below.
 
-- - -
+__App in the browser__
+<p align="center">
+<img src="./public/img/screen.png"/>
+</p>
 
-## Commit Early and Often
+<p align="center">
+<img src="./public/img/balpro.gif"/>
+</p>
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+__App on iOS__
+<p align="center">
+<img src="./public/img/pwa.gif"/>
+</p>
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+__As seen from the other side: cache in service-worker.js__
+<p align="center">
+<img src="./public/img/cache.png"/>
+</p>
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+__As seen from the other side: Mongoose Transaction Schema__
+<p align="center">
+<img src="./public/img/1mongoose.png"/>
+</p>
 
-* Follow these guidelines for committing:
+## Tech_Stack!
+This app utilizes the following technologies:
+- JavaScript (82%)
+- HTML (5%)
+- CSS (5%)
+- Express.js
+- MongoDB & Mongoose
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+__Extra features that I implemented:__
+1. IndexedDB for offline transactions
+2. service-worker.js for caching
+3. webmanifest for creating a PWA outside of the browser
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+## License
+This application is covered under the MIT license.
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+## Contributing
+If you would like to work on this project with me, reach out using the contact info below.
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## Test
+Testing framework used: coming soon!
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
+## Questions
+If you have additional questions, you can reach me via my GitHub profile: [Piotr72us](https://github.com/Piotr72us)<br/>
+or send me an email at: piotr72@gmail.com
