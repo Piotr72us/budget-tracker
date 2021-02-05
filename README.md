@@ -16,7 +16,7 @@ __Balance Pro 2.0__ is a progressive web app (PWA) that gives frequent travelers
 
 ## Installation
 
-1. You can use the app directly in the browser through the deployed Heroku link: https://budgets-tracker.herokuapp.com/
+1. You can use the app directly in the browser through the deployed [Heroku Link](https://budgets-tracker.herokuapp.com/)
 2. You can click the icon in the address bar to enjoy the functionalities of the app with a standalone app on your mobile device. 
 3. You can download this repository to your computer and open the app with command __node server__ or __npm start__
 
