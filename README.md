@@ -72,5 +72,5 @@ If you would like to work on this project with me, reach out using the contact i
 Testing framework used: coming soon!
 
 ## Questions
-If you have additional questions, you can reach me via my GitHub profile: [Piotr72us](https://github.com/Piotr72us)<br/>
+If you have additional questions, you can reach me via my GitHub profile: [peterdudek](https://github.com/peterdudek)<br/>
 or send me an email at: piotr72@gmail.com
